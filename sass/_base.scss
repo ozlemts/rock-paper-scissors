@@ -1,0 +1,48 @@
+//COLORS
+
+$background: #ad0c11;
+$text-primary: #f8f8f8;
+$button-color: #0CB04A;
+
+
+//FONTS
+$font-primary:'Comfortaa', sans-serif;
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;  // 10px/16px = 62.5% -> 10px
+}
+
+body {
+    font-family: $font-primary;
+    color: $text-primary;
+    font-weight: 400;
+    line-height: 1.6;
+    background-color: $background;
+}
+
+
+ul {text-decoration: none;}
+li {text-decoration: none;}
+button {border: none;}
+
+.center {
+    margin: 0 auto;
+}
+
+.margintopbig {
+    margin-top: 8rem;
+}
+.margintopsm {
+    margin-top: 2rem;
+}
+
+

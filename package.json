@@ -1,0 +1,10 @@
+{
+  "name": "initializer",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  },
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,23 @@
+%heading {
+    font-family: $font-primary;
+    font-weight: 400;
+}
+
+.heading-1 {
+    @extend %heading;
+    font-size: 4rem;
+    line-height: 1;
+    align-items: center;
+}
+
+.heading-2 {
+    @extend %heading;
+    font-size: 2.2rem;
+    color: $text-primary;
+    line-height: 1;
+    padding: 1rem;
+}
+
+
+
+
