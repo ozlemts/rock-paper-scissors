@@ -23,6 +23,7 @@
 .score {
     display: flex;
     justify-content: space-evenly;
+    visibility: hidden;
 }
 
 
@@ -32,6 +33,7 @@
     background-color: $button-color;
     color: $text-primary;
     border-radius: 1rem;
+    visibility: hidden;
 
 }
 .result {
@@ -43,12 +45,14 @@
     border-radius: 1rem;
     text-align: center;
     margin: 3rem auto;
+    visibility: hidden;
 }
 
 .computer {
     display: flex;
     justify-content: center;
     align-items: center;
+    visibility: hidden;
 }
 
 .start {

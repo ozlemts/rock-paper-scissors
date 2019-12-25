@@ -68,14 +68,16 @@ button {
 
 .score {
   display: flex;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+  visibility: hidden; }
 
 .btn {
   padding: 2rem;
   font-size: 3rem;
   background-color: #0CB04A;
   color: #f8f8f8;
-  border-radius: 1rem; }
+  border-radius: 1rem;
+  visibility: hidden; }
 
 .result {
   padding: 2rem;
@@ -85,12 +87,14 @@ button {
   background-color: #f8f8f8;
   border-radius: 1rem;
   text-align: center;
-  margin: 3rem auto; }
+  margin: 3rem auto;
+  visibility: hidden; }
 
 .computer {
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  visibility: hidden; }
 
 .start {
   text-align: center; }
